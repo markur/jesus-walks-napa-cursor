@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-serif antialiased bg-background text-foreground leading-relaxed;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl font-semibold tracking-tight mb-8;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl font-medium tracking-tight mb-6;
+  }
+
+  p {
+    @apply text-lg text-muted-foreground mb-6;
+  }
+}
